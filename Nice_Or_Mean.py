@@ -9,6 +9,9 @@
 #function to function while producing a functional game.
 #
 #
+a = "Thank you for playing my 'Nice Or Mean' game!"
+print(a)
+
 
 def start(nice=0,mean=0,name=""):
     # get user's name
@@ -98,8 +101,6 @@ def reset(nice,mean,name):
     #Notice, I do not reset the name variable as that user has elected to play again
     start(nice,mean,name)
     
-            
-
 
 
 
