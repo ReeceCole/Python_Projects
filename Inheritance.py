@@ -1,9 +1,10 @@
+#Parent Class
 class User:
     name = 'No Name Provided'
     email = ' '
     password = '1234abcd'
     account_number = 0
-
+#Child Class
 class Employee(User):
     base_pay = 11.00
     department = 'General'
